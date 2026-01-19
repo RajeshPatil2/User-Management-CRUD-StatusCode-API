@@ -13,4 +13,5 @@ public interface UserInterface {
 	User updateUser(int uid, User updateDetails);
 
 	boolean deleteId(int uid);
+	System.out.println("");
 }
