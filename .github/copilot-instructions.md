@@ -34,7 +34,7 @@ This is a Spring Boot 3.2.5 application for managing `User` entities with custom
 ## Project-Specific Notes
 - **Naming**: There are typos in some class names (e.g., `StausCodeDatabasesConnectivityApplication`, `UserImplemets`). Maintain consistency with existing names.
 - **Custom Exception Handling**: If implementing, add custom exceptions and global exception handlers in a new `exception/` package.
-- **No frontend**: Only REST API, no static/templated UI.
+- **No frontend**: Only REST API, no static/templated UI..
 
 ## Example: Add a new endpoint
 1. Add method to `UserInterface` and implement in `UserImplemets`.
