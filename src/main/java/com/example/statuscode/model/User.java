@@ -32,6 +32,7 @@ public class User {
 	}
 
 	public void setUfee(float ufee) {
+		System.out.println("user fee");
 		this.ufee = ufee;
 	}
 
