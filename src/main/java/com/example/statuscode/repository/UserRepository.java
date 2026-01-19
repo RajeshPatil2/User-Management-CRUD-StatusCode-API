@@ -8,5 +8,5 @@ import com.example.statuscode.model.User;
 @Repository
 public interface UserRepository extends CrudRepository<User, Integer> 
 {
-	
+	System.out.println("Repo");
 }
