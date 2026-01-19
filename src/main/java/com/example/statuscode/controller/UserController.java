@@ -34,11 +34,12 @@ public class UserController {
 		User byId = ui.getById(uid);
 		if (byId == null) {
 			return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+			System.out.println("--------");
 		} else {
 			return new ResponseEntity<>(byId, HttpStatus.OK);
 		}
 	}
-
+	
 	@PutMapping("/postData/{uid}")
 	public ResponseEntity<User> updateUserByID(@PathVariable int uid, @RequestBody User updateDetails) {
 		User updatedUser = ui.updateUser(uid, updateDetails);
