@@ -38,6 +38,7 @@ public class UserImplemets implements UserInterface {
 			//raise custom exception
 			
 		return byId.get();
+			System.out.println("get");
 			//return byId.orElse(null);
 		}
 		
