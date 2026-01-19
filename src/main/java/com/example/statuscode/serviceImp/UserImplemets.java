@@ -4,6 +4,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.example.statuscode.model.User;
 import com.example.statuscode.repository.UserRepository;
@@ -45,14 +46,12 @@ public class UserImplemets implements UserInterface {
 	@Override
 	public User updateUser(int uid, User updateDetails) {
 		Optional<User> optionalUser = ur.findById(uid);
-	
+
 		if (!optionalUser.isPresent()) {
-			
 			return null;
 		} else {
 			updateDetails.setUid(uid); 
 			ur.save(updateDetails);
-			
 			return updateDetails;
 		}
 	}
