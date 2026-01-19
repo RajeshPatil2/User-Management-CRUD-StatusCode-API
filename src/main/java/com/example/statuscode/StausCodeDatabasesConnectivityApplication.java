@@ -8,6 +8,7 @@ public class StausCodeDatabasesConnectivityApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StausCodeDatabasesConnectivityApplication.class, args);
+		System.out.println("StausCodeDatabasesConnectivityApplication");
 	}
 
 }
