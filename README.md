@@ -35,15 +35,4 @@ HTTP STATUS CODES USED
 ------------------------------------------
 **200 OK**       → Data fetched / updated successfully  
 **202 ACCEPTED** → Data saved successfully  
-**400 BAD REQUEST** → Invalid User ID or data not found  
-
-------------------------------------------
-AUTHOR
--------------------------------------------
-Name: **Rajesh Patil**
-Role: **Java Backend Developer (Fresher)**
-GitHub: **RajeshPatil2**
-
-========================================
-END OF FILE
-==============================================
+**400 BAD REQUEST** → Invalid User ID or data not found.
